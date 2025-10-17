@@ -1,0 +1,17 @@
+# Start from official python image
+FROM python:3.14
+
+# Copy the requirements file into the container
+COPY requirements.txt /requirements.txt
+
+# Install the dependencies
+RUN pip install -r /requirements.txt
+
+# Expose the port 5000
+EXPOSE 5000
+
+# Copy the application file
+COPY hello.py /hello.py
+
+# Run the flask app
+CMD ["python", "/hello.py"]

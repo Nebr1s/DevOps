@@ -1,0 +1,16 @@
+Your identification has been saved in sshkey.txt
+Your public key has been saved in sshkey.txt.pub
+The key fingerprint is:
+SHA256:3ukQRZqj5wi3eVZXDtLKF6fWzG27xhr5bchmpOqiAtg nebris@nebris-serv
+The key's randomart image is:
++--[ED25519 256]--+
+|          .      |
+|         + .     |
+|        + o + o  |
+|       . + o @ . |
+| o  . o S + = = o|
+|. E  o B + =  o..|
+|   .  + * o  *.o |
+|    .  o.o  . Bo+|
+|     ... o+. +o+.|
++----[SHA256]-----+
