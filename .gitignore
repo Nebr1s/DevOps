@@ -15,4 +15,7 @@
 *.docx
 *.pdf
 
+# Ignore VS Code settings
+.vscode/
+
 lab2/
