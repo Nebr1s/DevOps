@@ -5,6 +5,7 @@ This project implements Conway's Game of Life, a classic cellular automaton simu
 ## Overview
 
 Conway's Game of Life is a zero-player game that evolves based on its initial state. The simulation follows simple rules:
+
 - Any live cell with 2 or 3 live neighbors survives
 - Any dead cell with exactly 3 live neighbors becomes alive
 - All other cells die or remain dead
@@ -18,12 +19,14 @@ Conway's Game of Life is a zero-player game that evolves based on its initial st
 ## Build Instructions
 
 ### Prerequisites
+
 - GCC compiler
 - Make utility
 
 ### Building the Project
 
 To build the executable:
+
 ```bash
 make
 ```
@@ -33,15 +36,19 @@ This will create an executable named `conway`.
 ### Running the Simulation
 
 Run with blinker pattern (default):
+
 ```bash
 ./conway
 ```
+
 or
+
 ```bash
 ./conway b
 ```
 
 Run with glider pattern:
+
 ```bash
 ./conway g
 ```
@@ -49,6 +56,7 @@ Run with glider pattern:
 ### Cleaning Up
 
 To remove compiled files:
+
 ```bash
 make clean
 ```
@@ -56,6 +64,7 @@ make clean
 ### Installation
 
 To install the executable and header file system-wide:
+
 ```bash
 make install
 ```
