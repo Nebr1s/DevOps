@@ -14,7 +14,6 @@ Conway's Game of Life is a zero-player game that evolves based on its initial st
 
 - `main.c` - Main program that runs the simulation with different patterns
 - `life.c` - Implementation of the game logic (evolve function)
-- `life.h` - Header file with function declarations and macros
 - `Makefile` - Build automation for compiling and managing the project
 
 ## Build Instructions
