@@ -1,0 +1,24 @@
+# Ignore all image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.svg
+*.webp
+*.tiff
+*.ico
+*.tmp
+
+# Ignore all text files
+*.txt
+*.doc
+*.docx
+*.pdf
+
+# Ignore header files
+*.h
+
+# Ignore VS Code settings
+.vscode/
+.vagrant/
