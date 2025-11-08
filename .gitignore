@@ -12,6 +12,7 @@
 
 # Ignore all text files
 *.txt
+!requirements.txt
 *.doc
 *.docx
 *.pdf
